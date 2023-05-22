@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+#datetime-picker {
+  position: fixed;
+  top: 105px;
+  left: 10px;
+  width: 350px;
+  padding: 15px;
+  margin: 0 10px 0 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+.timer-btn {
+  position: fixed;
+  top: 110px;
+  left: 395px;
+  padding: 8px 22px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.timer {
+  position: fixed;
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+.field .value {
+  font-size: 30px;
+  font-weight: 700;
+}
+.field .label {
+  font-size: 20px;
+  font-weight: 500;
+}
